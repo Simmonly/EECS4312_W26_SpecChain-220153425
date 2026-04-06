@@ -1,0 +1,27 @@
+{
+  "app_name": "Medito",
+  "app_id": "meditofoundation.medito",
+  "collection_method": "google-play-scraper Python library (Sort.NEWEST)",
+  "raw_review_count": 5000,
+  "clean_review_count": 4115,
+  "skipped": {
+    "duplicate_id": 0,
+    "duplicate_text": 261,
+    "empty": 0,
+    "too_short": 624
+  },
+  "cleaning_steps": [
+    "Removed non-ASCII characters and emojis",
+    "Removed URLs",
+    "Removed punctuation and special characters",
+    "Removed extra whitespace",
+    "Converted to lowercase",
+    "Converted digits to words",
+    "Removed English stop words (NLTK)",
+    "Lemmatized tokens (NLTK WordNetLemmatizer)",
+    "Removed duplicate review IDs",
+    "Removed empty reviews",
+    "Removed reviews with fewer than 3 words",
+    "Removed duplicate cleaned content"
+  ]
+}
