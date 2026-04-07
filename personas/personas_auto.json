@@ -1,0 +1,159 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Appreciative User",
+      "description": "A user who appreciates the overall value and functionality of Medito, finding it helpful for their mental well-being.",
+      "derived_from_group": "G1",
+      "goals": [
+        "To find a reliable and helpful meditation app",
+        "To improve their mental well-being and live a more peaceful life",
+        "To easily access meditation resources without cost"
+      ],
+      "pain_points": [
+        "Occasional bugs or glitches",
+        "Limited features in the free version",
+        "Difficulty finding specific meditation sessions"
+      ],
+      "context": [
+        "Using Medito as part of their daily routine",
+        "Recommending Medito to friends and family",
+        "Exploring different meditation techniques and sessions"
+      ],
+      "constraints": [
+        "Limited technical expertise",
+        "Busy schedule",
+        "Financial constraints"
+      ],
+      "evidence_reviews": [
+        "06260acb-a9ab-4979-a12b-28885a165637",
+        "cbb2e811-6e67-41db-902a-b60f58dda5a7",
+        "cac79f9b-e7ee-4910-a04e-358669f38048"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Mental Health Seeker",
+      "description": "A user who uses Medito to improve their mental health and finds it effective in managing stress and anxiety.",
+      "derived_from_group": "G2",
+      "goals": [
+        "To manage stress and anxiety",
+        "To improve their overall mental health",
+        "To find a meditation app that truly helps"
+      ],
+      "pain_points": [
+        "Difficulty sleeping",
+        "High expectations for the app's effectiveness",
+        "Occasional lack of motivation"
+      ],
+      "context": [
+        "Using Medito before bed to sleep",
+        "Trying different meditation sessions to find what works best",
+        "Monitoring their mental health progress"
+      ],
+      "constraints": [
+        "Struggling with mental health issues",
+        "Difficulty committing to a meditation routine",
+        "Sensitive to app's tone and guidance"
+      ],
+      "evidence_reviews": [
+        "c7ce7180-4c49-4e8f-bc87-044054efd10f",
+        "2ad1f146-0f55-45d3-b587-52f2ee509d9c",
+        "dc2bf0fe-974e-448b-bada-94e651dfc1f3"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Feature Enthusiast",
+      "description": "A user who is enthusiastic about Medito's features and functionality, but also suggests improvements.",
+      "derived_from_group": "G3",
+      "goals": [
+        "To have a wide range of meditation sessions and features",
+        "To easily navigate and use the app",
+        "To provide feedback and influence the app's development"
+      ],
+      "pain_points": [
+        "Occasional bugs or glitches",
+        "Limited customization options",
+        "No voice option for sessions"
+      ],
+      "context": [
+        "Exploring different meditation sessions and features",
+        "Providing feedback to the app's developers",
+        "Comparing Medito to other meditation apps"
+      ],
+      "constraints": [
+        "Tech-savvy, but also values simplicity",
+        "Busy schedule, wants to quickly find sessions",
+        "Wants to see continuous improvement and updates"
+      ],
+      "evidence_reviews": [
+        "c62c9836-ced3-49cd-8cc5-1f163d012afc",
+        "d448d683-41da-444e-bbc7-618f9b5af65f",
+        "724a6dca-0da8-4024-9d67-c5aad98b0b93"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Value-Conscious User",
+      "description": "A user who appreciates Medito's value and pricing, finding it to be a cost-effective solution.",
+      "derived_from_group": "G4",
+      "goals": [
+        "To find a free or low-cost meditation app",
+        "To access a wide range of meditation sessions without cost",
+        "To appreciate the app's developers and their effort"
+      ],
+      "pain_points": [
+        "Occasional ads or subscription requests",
+        "Limited features in the free version",
+        "Doubts about the app's long-term viability"
+      ],
+      "context": [
+        "Using Medito as a free alternative to paid apps",
+        "Recommending Medito to friends and family",
+        "Appreciating the app's developers and their effort"
+      ],
+      "constraints": [
+        "Financial constraints",
+        "Values transparency and fairness in pricing",
+        "Wants to support developers who care"
+      ],
+      "evidence_reviews": [
+        "bb7117bb-3828-4a4e-8742-8086d96be2d0",
+        "7d45f5be-d675-46ec-aa60-68e21b2699a8",
+        "26b2e95b-179a-4774-9d1d-e6a95263e597"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Frustrated User",
+      "description": "A user who experiences technical issues and bugs with Medito, leading to frustration.",
+      "derived_from_group": "G5",
+      "goals": [
+        "To use a reliable and bug-free meditation app",
+        "To access meditation sessions without interruptions",
+        "To report and resolve technical issues"
+      ],
+      "pain_points": [
+        "Frequent bugs or glitches",
+        "App crashes or freezes",
+        "Difficulty resolving technical issues"
+      ],
+      "context": [
+        "Trying to use Medito during a busy schedule",
+        "Dealing with technical issues and bugs",
+        "Reporting issues to the app's developers"
+      ],
+      "constraints": [
+        "Limited technical expertise",
+        "Frustrated with technical issues",
+        "Values a smooth and reliable user experience"
+      ],
+      "evidence_reviews": [
+        "62c9836-ced3-49cd-8cc5-1f163d012afc",
+        "d448d683-41da-444e-bbc7-618f9b5af65f",
+        "2914c042-86d4-4aa2-8259-0dfb4f17bd80"
+      ]
+    }
+  ]
+}

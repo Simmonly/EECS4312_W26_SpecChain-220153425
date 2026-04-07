@@ -1,13 +1,94 @@
-{  "groups": [
+{
+  "groups": [
     {
-      "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "group_id": "G1",
+      "theme": "Overall Satisfaction and Appreciation",
+      "review_ids": [
+        "06260acb-a9ab-4979-a12b-28885a165637",
+        "cbb2e811-6e67-41db-902a-b60f58dda5a7",
+        "cac79f9b-e7ee-4910-a04e-358669f38048",
+        "7d549b6d-35c7-415c-8c41-5b99086846c5",
+        "afc99ecc-5562-4c21-ae14-04dec334376d"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "great app meditation",
+        "best app meditation mindfulness",
+        "love free app soo cute",
+        "app help people live peaceful life without asking anything",
+        "absolute love app people behind helping lot"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Effectiveness and Impact on Mental Health",
+      "review_ids": [
+        "c7ce7180-4c49-4e8f-bc87-044054efd10f",
+        "2ad1f146-0f55-45d3-b587-52f2ee509d9c",
+        "dc2bf0fe-974e-448b-bada-94e651dfc1f3",
+        "e61b5c93-8173-43cb-ad2e-ec890f6d1631",
+        "f2034325-88c0-462c-85ff-9cbdf55de002"
+      ],
+      "example_reviews": [
+        "app improved mental health alot",
+        "couldnt sleep without thank",
+        "ive never felt urge leave review apps untili used medito",
+        "great app especially love sleep meditation",
+        "app helped build create awareness meditation made part life"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Features and Functionality",
+      "review_ids": [
+        "c62c9836-ced3-49cd-8cc5-1f163d012afc",
+        "d448d683-41da-444e-bbc7-618f9b5af65f",
+        "724a6dca-0da8-4024-9d67-c5aad98b0b93",
+        "c4a1abb4-d696-41b2-8a2b-71ec370e921f",
+        "1cc3042a-e5ed-4da0-8f10-e30a21391d1d"
+      ],
+      "example_reviews": [
+        "good app there bugglitch",
+        "love medito ive tried several meditation apps none worked well",
+        "wish voice option",
+        "one add reset functionality",
+        "opensource meditation app could find really put lot effort incorporating feedback user"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Value and Pricing",
+      "review_ids": [
+        "bb7117bb-3828-4a4e-8742-8086d96be2d0",
+        "7d45f5be-d675-46ec-aa60-68e21b2699a8",
+        "26b2e95b-179a-4774-9d1d-e6a95263e597",
+        "693b00b4-9d55-4601-9efe-f8b172b1a2cc",
+        "b5ee85ed-9983-4ab3-abb5-d56d5c5e58e9"
+      ],
+      "example_reviews": [
+        "free version best compared similar apps tried",
+        "awesome app dev team",
+        "medito exceptional wonderful app lot different option resource completely free without ad",
+        "wow surprised saw open everything without subscription",
+        "honestly glad found app app free student wouldnt able premium app"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Technical Issues and Bugs",
+      "review_ids": [
+        "62c9836-ced3-49cd-8cc5-1f163d012afc",
+        "d448d683-41da-444e-bbc7-618f9b5af65f",
+        "2914c042-86d4-4aa2-8259-0dfb4f17bd80",
+        "777b5bdc-f71b-47f1-8133-8f68f4717a18",
+        "c9075047-2268-4fec-93d3-6a4f10abea0e"
+      ],
+      "example_reviews": [
+        "good app there bugglitch",
+        "love medito ive tried several meditation apps none worked well one session good something every level always new content session customisable free however lately ive issue",
+        "pausing narration app far long make worried app crashed fall asleep scare back awake",
+        "wonderfull app wont open latest update",
+        "ive using app since beginning two zero two three perfect every feature app worked recently bug like one im recently facing"
+      ]
     }
   ]
 }

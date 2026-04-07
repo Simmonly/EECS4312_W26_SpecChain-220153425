@@ -1,15 +1,235 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "test_id": "T_auto_1a",
+      "requirement_id": "FR1",
+      "scenario": "Launch app and access main menu",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the Medito app",
+        "Wait for 2 seconds",
+        "Verify the main menu is displayed"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The main menu is displayed within 2 seconds"
+    },
+    {
+      "test_id": "T_auto_1b",
+      "requirement_id": "FR1",
+      "scenario": "Verify main menu navigation",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the main menu",
+        "Verify all menu items are displayed"
+      ],
+      "expected_result": "All menu items are displayed and accessible"
+    },
+    {
+      "test_id": "T_auto_2a",
+      "requirement_id": "FR2",
+      "scenario": "Search for stress management sessions",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the search function",
+        "Enter 'stress management' as a search query",
+        "Wait for 1 minute"
+      ],
+      "expected_result": "At least 5 sessions focused on stress management are displayed within 1 minute"
+    },
+    {
+      "test_id": "T_auto_2b",
+      "requirement_id": "FR2",
+      "scenario": "Verify session variety",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the session catalog",
+        "Verify sessions for different mental health goals are listed"
+      ],
+      "expected_result": "Sessions for various mental health goals are listed and accessible"
+    },
+    {
+      "test_id": "T_auto_3a",
+      "requirement_id": "FR3",
+      "scenario": "View meditation progress",
+      "steps": [
+        "Launch the Medito app",
+        "Complete 5 meditation sessions",
+        "Navigate to the progress tracking page"
+      ],
+      "expected_result": "A graphical representation of the session history is displayed"
+    },
+    {
+      "test_id": "T_auto_3b",
+      "requirement_id": "FR3",
+      "scenario": "Verify progress tracking",
+      "steps": [
+        "Launch the Medito app",
+        "Complete 10 meditation sessions",
+        "Navigate to the progress tracking page",
+        "Verify the graph updates to reflect the new sessions"
+      ],
+      "expected_result": "The graph updates to reflect the new sessions"
+    },
+    {
+      "test_id": "T_auto_4a",
+      "requirement_id": "FR4",
+      "scenario": "Minimize app during meditation session",
+      "steps": [
+        "Launch the Medito app",
+        "Start a meditation session",
+        "Minimize the app"
+      ],
+      "expected_result": "The meditation session continues to play without interruption"
+    },
+    {
+      "test_id": "T_auto_4b",
+      "requirement_id": "FR4",
+      "scenario": "Verify audio continuity",
+      "steps": [
+        "Launch the Medito app",
+        "Start a meditation session",
+        "Switch to another app",
+        "Verify the session audio continues to play"
+      ],
+      "expected_result": "The session audio continues to play without interruption"
+    },
+    {
+      "test_id": "T_auto_5a",
+      "requirement_id": "FR5",
+      "scenario": "Access free meditation sessions",
+      "steps": [
+        "Launch the Medito app",
+        "Sign up as a new user",
+        "Navigate to the session catalog"
+      ],
+      "expected_result": "At least 10 free meditation sessions are accessible without a subscription"
+    },
+    {
+      "test_id": "T_auto_5b",
+      "requirement_id": "FR5",
+      "scenario": "Verify free session limit",
+      "steps": [
+        "Launch the Medito app",
+        "Sign up as a new user",
+        "Access 10 free meditation sessions",
+        "Verify no more free sessions are available"
+      ],
+      "expected_result": "No more than 10 free meditation sessions are available"
+    },
+    {
+      "test_id": "T_auto_6a",
+      "requirement_id": "FR6",
+      "scenario": "Report a bug and verify response",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the feedback section",
+        "Report a bug",
+        "Wait for 24 hours"
+      ],
+      "expected_result": "A confirmation response is received within 24 hours"
+    },
+    {
+      "test_id": "T_auto_6b",
+      "requirement_id": "FR6",
+      "scenario": "Verify error report handling",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the feedback section",
+        "Report an error",
+        "Verify the report is logged and acknowledged"
+      ],
+      "expected_result": "The error report is logged and acknowledged"
+    },
+    {
+      "test_id": "T_auto_7a",
+      "requirement_id": "FR7",
+      "scenario": "Verify data encryption",
+      "steps": [
+        "Launch the Medito app",
+        "Sign up as a new user",
+        "Verify user data is encrypted"
+      ],
+      "expected_result": "User data is encrypted using a standard encryption protocol"
+    },
+    {
+      "test_id": "T_auto_7b",
+      "requirement_id": "FR7",
+      "scenario": "Verify data security",
+      "steps": [
+        "Launch the Medito app",
+        "Sign up as a new user",
+        "Verify data is stored securely"
+      ],
+      "expected_result": "User data is stored securely and protected from unauthorized access"
+    },
+    {
+      "test_id": "T_auto_8a",
+      "requirement_id": "FR8",
+      "scenario": "Search for sessions by keyword",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the search function",
+        "Enter a search query",
+        "Wait for 2 seconds"
+      ],
+      "expected_result": "A list of relevant sessions is displayed within 2 seconds"
+    },
+    {
+      "test_id": "T_auto_8b",
+      "requirement_id": "FR8",
+      "scenario": "Verify search functionality",
+      "steps": [
+        "Launch the Medito app",
+        "Navigate to the search function",
+        "Enter multiple search queries",
+        "Verify relevant sessions are displayed for each query"
+      ],
+      "expected_result": "Relevant sessions are displayed for each search query"
+    },
+    {
+      "test_id": "T_auto_9a",
+      "requirement_id": "FR9",
+      "scenario": "View personalized recommendations",
+      "steps": [
+        "Launch the Medito app",
+        "Complete 3 meditation sessions",
+        "Navigate to the recommendations section"
+      ],
+      "expected_result": "At least 2 sessions tailored to the user's interests are displayed"
+    },
+    {
+      "test_id": "T_auto_9b",
+      "requirement_id": "FR9",
+      "scenario": "Verify recommendation accuracy",
+      "steps": [
+        "Launch the Medito app",
+        "Complete 5 meditation sessions",
+        "Navigate to the recommendations section",
+        "Verify recommendations match the user's interests"
+      ],
+      "expected_result": "Recommendations match the user's interests and preferences"
+    },
+    {
+      "test_id": "T_auto_10a",
+      "requirement_id": "FR10",
+      "scenario": "Rate and review a meditation session",
+      "steps": [
+        "Launch the Medito app",
+        "Complete a meditation session",
+        "Rate the session",
+        "Wait for 1 hour"
+      ],
+      "expected_result": "The rating is displayed on the session's details page within 1 hour"
+    },
+    {
+      "test_id": "T_auto_10b",
+      "requirement_id": "FR10",
+      "scenario": "Verify rating display",
+      "steps": [
+        "Launch the Medito app",
+        "Complete a meditation session",
+        "Rate the session",
+        "Verify the rating is displayed on the session's details page"
+      ],
+      "expected_result": "The rating is displayed on the session's details page"
     }
   ]
 }

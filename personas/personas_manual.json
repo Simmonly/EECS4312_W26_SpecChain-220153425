@@ -1,22 +1,170 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "The Grateful Free User",
+      "description": "A user who actively sought a meditation app that is genuinely free and ad-free, and deeply values Medito's non-profit model. They often come from paid apps like Headspace or Calm and appreciate unrestricted access to all content.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access high-quality meditation content without paying or seeing ads",
+        "Use the app long-term without being pressured into a subscription",
+        "Optionally donate to support the app on their own terms"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Other meditation apps lock content behind paywalls",
+        "Ads interrupt the calm experience of meditation sessions",
+        "Feeling guilt-tripped or pressured by other apps to upgrade"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Previously used paid apps like Headspace or Calm",
+        "Looking for a sustainable free alternative",
+        "May be in a financially constrained situation"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Must have full access to content without payment",
+        "No advertisements during or between sessions",
+        "Donation must always be optional and pressure-free"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "aec3eaf5-6420-49e6-815b-1add7e4538c0",
+        "cf2c46d9-40ef-4143-9dcc-2fa0d968fd43",
+        "fa417e9c-8b6f-4313-8eb2-8ad04c204cba",
+        "2dbdc292-8ab0-44da-b0bb-7aa73be3d05a"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "The Confused First-Timer",
+      "description": "A new user who downloaded Medito expecting a fully free experience but encountered donation prompts or perceived paywalls before being able to use the app. They feel misled by the app's marketing and are hesitant to continue.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Try the app before committing any money",
+        "Understand what is free versus what requires a donation",
+        "Have a transparent and honest onboarding experience"
+      ],
+      "pain_points": [
+        "Donation screen appears before any content is accessible",
+        "No clear way to skip the donation prompt on Android",
+        "Feels deceived when the app is advertised as free but prompts for payment immediately",
+        "Nag screen persists even after donating"
+      ],
+      "context": [
+        "First time downloading the app",
+        "On an Android device",
+        "Motivated by the free and no-paywall marketing"
+      ],
+      "constraints": [
+        "Must be able to access at least some content without any payment",
+        "Donation prompt must have a clearly visible skip option",
+        "Onboarding must not feel like a bait-and-switch"
+      ],
+      "evidence_reviews": [
+        "6bad6ebc-22f0-4cea-84be-292e0b54b53a",
+        "3ad7a79f-15b2-4649-99e7-7dc87d6055c0",
+        "6199838b-67dd-440e-8aa0-db3de71635de",
+        "032da267-54cd-470f-b081-d6c105a1fa19"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "The Frustrated Returning User",
+      "description": "A loyal Medito user who has built a consistent meditation habit but is experiencing technical issues such as app crashes, audio stopping, broken sync across devices, or streak loss after updates. They are emotionally invested in the app and frustrated when bugs interrupt their practice.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Resume meditation sessions without crashes or interruptions",
+        "Maintain streak and progress data across multiple devices",
+        "Have audio play reliably through earbuds and with screen off"
+      ],
+      "pain_points": [
+        "App crashes when attempting to play a meditation",
+        "Audio stops when screen turns off or earbuds are connected",
+        "Streak and sync data lost after an update or device switch",
+        "Swipe gestures conflict with phone navigation gestures",
+        "Session not marked as complete when exiting slightly early"
+      ],
+      "context": [
+        "Regular daily user with an established streak",
+        "Uses multiple devices or recently switched phones",
+        "Relies on earbuds or background audio during sessions"
+      ],
+      "constraints": [
+        "App must not crash during active sessions",
+        "Progress and streaks must sync reliably across devices",
+        "Audio must continue playing with the screen off"
+      ],
+      "evidence_reviews": [
+        "a81954ee-ab72-4c62-851c-f7681391f1ad",
+        "c46d2602-7094-409b-9eda-6699be423d34",
+        "0595aa68-046f-401b-b902-e5d159e87954",
+        "86f8262d-f4c3-4dd9-b138-6efbf1bf399f",
+        "843a80ec-f2f9-4558-b720-92341cc106bc"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "The Wellness Seeker",
+      "description": "A user who turned to Medito during a difficult period in their life — struggling with anxiety, poor sleep, stress, or addiction. They use the app therapeutically and credit it with meaningful improvements to their mental health and daily wellbeing.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Reduce anxiety and stress through daily meditation",
+        "Improve sleep quality using sleep-focused meditations",
+        "Build emotional resilience and mental clarity over time"
+      ],
+      "pain_points": [
+        "Difficulty falling asleep quickly requiring multiple consecutive meditations",
+        "No queue feature to play several sleep meditations without opening the phone",
+        "Having to interrupt a relaxing state to manually change sessions"
+      ],
+      "context": [
+        "Using the app at night for sleep or during anxious moments",
+        "May be dealing with anxiety, insomnia, stress, or addiction recovery",
+        "Highly emotionally connected to the app and its impact on their life"
+      ],
+      "constraints": [
+        "Sessions must play without requiring phone interaction once started",
+        "Sleep meditations must be accessible quickly and without distraction",
+        "App must feel calm and non-intrusive in its design"
+      ],
+      "evidence_reviews": [
+        "73c1ccfe-22e5-42d2-8bdf-d9bc2c7c3188",
+        "f1c3bea3-31a7-4b4d-81e7-7aa1522e92a5",
+        "7d79559a-951c-4d38-9ddf-f6e216eed1f4",
+        "598c4e53-e8d2-444a-a765-7f3ceb07bdf6",
+        "50a52508-b7cc-4330-8955-a20d9c1cebcc"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "The Beginner on a Journey",
+      "description": "A first-time meditator who found Medito as their entry point into meditation. They value structured courses, clear guidance, and a simple interface that doesn't overwhelm them. They are building a new habit and rely on the app's course progression to stay motivated.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Learn how to meditate from scratch using structured beginner courses",
+        "Build a consistent daily meditation habit",
+        "Progress through courses at their own pace without feeling overwhelmed"
+      ],
+      "pain_points": [
+        "Unable to download sessions for offline use",
+        "Unclear how to navigate to offline download options",
+        "Wants to continue practice while traveling or without internet"
+      ],
+      "context": [
+        "New to meditation with little or no prior experience",
+        "Following a specific course from start to finish",
+        "May be traveling or in areas with limited connectivity"
+      ],
+      "constraints": [
+        "Courses must be clearly structured and easy to follow",
+        "Offline download must be discoverable and easy to use",
+        "Interface must be simple and not overwhelming for new users"
+      ],
+      "evidence_reviews": [
+        "59877fdc-6d06-4c13-97f9-8421738d61ae",
+        "eb1744ea-adbc-40a3-a724-73fd338554be",
+        "4bec1381-ad94-413f-88ec-a49438b8f52b",
+        "07d31de2-d356-4b76-bc5b-0e67997293a4",
+        "5bbde312-88be-4b08-a219-11c1ab2f872a"
+      ]
+    }
+  ]
+}

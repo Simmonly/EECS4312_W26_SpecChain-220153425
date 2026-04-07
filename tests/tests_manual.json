@@ -1,16 +1,295 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1a",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Full content access without payment on first launch",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Install the app on a new device",
+        "Open the app for the first time",
+        "Skip any onboarding screens",
+        "Navigate to the content library",
+        "Attempt to open multiple meditation sessions and courses"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "All meditation sessions and courses open and play without any payment prompt or locked content indicator."
+    },
+    {
+      "test_id": "T_manual_1b",
+      "requirement_id": "FR1",
+      "scenario": "Content remains accessible after dismissing donation prompt",
+      "steps": [
+        "Open the app",
+        "When a donation prompt appears, dismiss it",
+        "Navigate to the full content library",
+        "Open several sessions across different categories"
+      ],
+      "expected_result": "All content remains fully accessible after dismissing the donation prompt with no sessions locked or restricted."
+    },
+    {
+      "test_id": "T_manual_2a",
+      "requirement_id": "FR2",
+      "scenario": "No ads displayed during an active meditation session",
+      "steps": [
+        "Open the app",
+        "Select any meditation session",
+        "Begin playback",
+        "Wait through the entire session duration",
+        "Observe the screen throughout playback"
+      ],
+      "expected_result": "No advertisement of any kind appears during the session playback."
+    },
+    {
+      "test_id": "T_manual_2b",
+      "requirement_id": "FR2",
+      "scenario": "No ads displayed when navigating between sessions",
+      "steps": [
+        "Open the app",
+        "Complete one meditation session",
+        "Navigate to a second session",
+        "Observe all screen transitions between the two sessions"
+      ],
+      "expected_result": "No advertisement appears on any screen during navigation between sessions."
+    },
+    {
+      "test_id": "T_manual_3a",
+      "requirement_id": "FR3",
+      "scenario": "Donation prompt has a visible skip button on first launch",
+      "steps": [
+        "Install the app on a new Android device",
+        "Launch the app for the first time",
+        "Wait for the donation prompt to appear",
+        "Observe the prompt without scrolling"
+      ],
+      "expected_result": "A skip or dismiss button is visible on the donation prompt without requiring any scrolling."
+    },
+    {
+      "test_id": "T_manual_3b",
+      "requirement_id": "FR3",
+      "scenario": "Skipping donation prompt grants full app access",
+      "steps": [
+        "Launch the app for the first time",
+        "When the donation prompt appears, tap the skip button",
+        "Navigate to the content library",
+        "Attempt to open a meditation session"
+      ],
+      "expected_result": "The user is taken directly into the app with full access to all content after skipping the donation prompt."
+    },
+    {
+      "test_id": "T_manual_4a",
+      "requirement_id": "FR4",
+      "scenario": "Donation prompt does not reappear after a completed donation",
+      "steps": [
+        "Open the app",
+        "Complete a donation through the in-app donation flow",
+        "Close and reopen the app three times",
+        "Navigate between multiple screens each time"
+      ],
+      "expected_result": "The donation prompt does not appear on any subsequent session after the donation has been completed."
+    },
+    {
+      "test_id": "T_manual_4b",
+      "requirement_id": "FR4",
+      "scenario": "Donation prompt does not reappear within the same session",
+      "steps": [
+        "Open the app",
+        "Dismiss the donation prompt",
+        "Navigate through at least five different screens",
+        "Return to the home screen"
+      ],
+      "expected_result": "The donation prompt does not reappear at any point during the same app session after being dismissed once."
+    },
+    {
+      "test_id": "T_manual_5a",
+      "requirement_id": "FR5",
+      "scenario": "Audio continues when screen locks during session",
+      "steps": [
+        "Open the app",
+        "Start any meditation session",
+        "Allow the device screen to lock automatically after 30 seconds",
+        "Wait 60 seconds without touching the device"
+      ],
+      "expected_result": "The meditation audio continues playing uninterrupted after the screen locks."
+    },
+    {
+      "test_id": "T_manual_5b",
+      "requirement_id": "FR5",
+      "scenario": "Audio continues when earbuds are connected during session",
+      "steps": [
+        "Open the app",
+        "Connect a pair of Bluetooth earbuds",
+        "Start a meditation session",
+        "Let the session play for at least 2 minutes",
+        "Observe whether audio stops at any point"
+      ],
+      "expected_result": "Audio plays continuously through the earbuds for the full duration without stopping."
+    },
+    {
+      "test_id": "T_manual_6a",
+      "requirement_id": "FR6",
+      "scenario": "Streak syncs correctly after switching devices",
+      "steps": [
+        "Complete a meditation session on Device A while logged in",
+        "Log into the same account on Device B",
+        "Wait up to 60 seconds",
+        "Check the streak count on Device B"
+      ],
+      "expected_result": "The streak count on Device B matches the streak count on Device A within 60 seconds of login."
+    },
+    {
+      "test_id": "T_manual_6b",
+      "requirement_id": "FR6",
+      "scenario": "Course progress syncs across devices",
+      "steps": [
+        "Complete two sessions of a course on Device A",
+        "Log into the same account on Device B",
+        "Navigate to the same course",
+        "Observe which sessions are marked as completed"
+      ],
+      "expected_result": "The same two sessions are marked as completed on Device B as on Device A."
+    },
+    {
+      "test_id": "T_manual_7a",
+      "requirement_id": "FR7",
+      "scenario": "Session marked complete when user exits in final 10 seconds",
+      "steps": [
+        "Open the app and start a short meditation session",
+        "Wait until the session is within the last 10 seconds of audio",
+        "Exit the session by pressing back",
+        "Check the session history and streak"
+      ],
+      "expected_result": "The session is recorded as completed in the session history and the streak is updated accordingly."
+    },
+    {
+      "test_id": "T_manual_7b",
+      "requirement_id": "FR7",
+      "scenario": "Session not marked complete when user exits well before end",
+      "steps": [
+        "Open the app and start a meditation session",
+        "Exit the session after 30 seconds when it is far from completion",
+        "Check the session history"
+      ],
+      "expected_result": "The session is not recorded as completed and the streak is not updated."
+    },
+    {
+      "test_id": "T_manual_8a",
+      "requirement_id": "FR8",
+      "scenario": "Queued sessions play consecutively without user interaction",
+      "steps": [
+        "Open the app",
+        "Add three meditation sessions to a queue",
+        "Start the queue",
+        "Lock the device screen",
+        "Wait for the first session to end"
+      ],
+      "expected_result": "The second session begins playing automatically after the first ends without the user unlocking the phone or interacting with the app."
+    },
+    {
+      "test_id": "T_manual_8b",
+      "requirement_id": "FR8",
+      "scenario": "Queue feature is accessible from the session selection screen",
+      "steps": [
+        "Open the app",
+        "Navigate to the meditation library",
+        "Locate the option to add a session to a queue",
+        "Add two sessions to the queue",
+        "Confirm the queue is visible before starting"
+      ],
+      "expected_result": "The queue option is clearly visible on the session screen and both sessions appear in the queue before playback begins."
+    },
+    {
+      "test_id": "T_manual_9a",
+      "requirement_id": "FR9",
+      "scenario": "Download button is visible on session screen",
+      "steps": [
+        "Open the app",
+        "Navigate to any meditation session page",
+        "Observe the session detail screen"
+      ],
+      "expected_result": "A download button is clearly visible on the session page without scrolling."
+    },
+    {
+      "test_id": "T_manual_9b",
+      "requirement_id": "FR9",
+      "scenario": "Downloaded session plays without internet connection",
+      "steps": [
+        "Open the app while connected to the internet",
+        "Download a meditation session",
+        "Enable airplane mode on the device",
+        "Navigate to the downloaded session and press play"
+      ],
+      "expected_result": "The session plays fully without buffering or error messages despite having no internet connection."
+    },
+    {
+      "test_id": "T_manual_10a",
+      "requirement_id": "FR10",
+      "scenario": "Beginner course is prominently displayed for new users",
+      "steps": [
+        "Install the app on a new device",
+        "Complete onboarding",
+        "Navigate to the courses section"
+      ],
+      "expected_result": "A beginner course is displayed prominently at the top or highlighted section of the courses screen."
+    },
+    {
+      "test_id": "T_manual_10b",
+      "requirement_id": "FR10",
+      "scenario": "Beginner course sessions are listed in sequential order with labels",
+      "steps": [
+        "Open the app",
+        "Navigate to the beginner course",
+        "Open the course detail page",
+        "Observe the session list"
+      ],
+      "expected_result": "Sessions are listed in numbered sequential order and each session displays its sequence number and estimated duration."
+    },
+    {
+      "test_id": "T_manual_11a",
+      "requirement_id": "FR11",
+      "scenario": "User can manually log a past meditation session",
+      "steps": [
+        "Open the app",
+        "Navigate to streak settings or session history",
+        "Select the option to manually add a session",
+        "Choose yesterday's date",
+        "Confirm the entry"
+      ],
+      "expected_result": "The manually logged session appears in the session history for yesterday's date and the streak updates to include that day."
+    },
+    {
+      "test_id": "T_manual_11b",
+      "requirement_id": "FR11",
+      "scenario": "Manually logged session does not duplicate an existing entry",
+      "steps": [
+        "Open the app on a day where a session was already completed via the app",
+        "Attempt to manually add another session for the same date",
+        "Confirm the entry"
+      ],
+      "expected_result": "The system either prevents the duplicate entry or merges it, and the streak count for that day remains at one without duplication."
+    },
+    {
+      "test_id": "T_manual_12a",
+      "requirement_id": "FR12",
+      "scenario": "User can disable in-app swipe gestures from settings",
+      "steps": [
+        "Open the app",
+        "Navigate to settings",
+        "Locate the gesture controls option",
+        "Toggle swipe gestures off",
+        "Return to the main app screen"
+      ],
+      "expected_result": "The swipe gesture toggle is present in settings and after disabling it, in-app swipe gestures no longer trigger."
+    },
+    {
+      "test_id": "T_manual_12b",
+      "requirement_id": "FR12",
+      "scenario": "Device navigation gestures work correctly after disabling in-app swipes",
+      "steps": [
+        "Open the app",
+        "Disable in-app swipe gestures in settings",
+        "Use the device's native swipe-from-edge gesture to go back",
+        "Use the device's swipe-up gesture to go home"
+      ],
+      "expected_result": "Both native device navigation gestures function correctly without being intercepted by the app."
     }
   ]
 }
